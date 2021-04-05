@@ -29,7 +29,7 @@ export function Countdown() {
         </div>
       </div>
 
-      {hasFinished ? (
+      {hasFinished ? ( 
         <button
           disabled
           className={`${styles.CountdownButton}`}
